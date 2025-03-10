@@ -1,0 +1,237 @@
+body {
+  background-color: #f1fcfd;
+}
+
+li {
+  color: #777e90;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.part {
+  border: 2px solid #febc10;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  gap: 10px;
+  color: #febc10;
+}
+.heading-title {
+  width: 720px;
+  height: 176px;
+  text-align: center;
+  color: #fcfcfd;
+}
+.hero-container-section {
+  background-color: #c4c4c4;
+}
+.hero-section {
+  height: 564px;
+}
+.grid-container {
+  height: 512px;
+  gap: 18px 31px;
+}
+.search-section {
+  height: 251px;
+  background-color: #c4c4c4;
+}
+
+.localisation_maps {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.localisation_maps iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .heading-title-main {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    line-height: 64px;
+  }
+}
+@media (max-width: 1024px) {
+  .heading-title-main {
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    line-height: 43px;
+  }
+  /* .localisation_maps iframe {
+      width: 450px;
+      height: 450px;
+    } */
+}
+.heading-title-para {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.stades-container {
+  height: 260px;
+  gap: 42px;
+  margin-bottom: 40px;
+}
+.image-card {
+  height: 274px;
+}
+
+.football-item {
+  background-image: linear-gradient(to bottom, #d9d9d900 0%, #29312e91 93%),
+    url("../images/3148649a8bdac52e622d2dcdcfcb87e6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-cards {
+  width: 360px;
+  height: 303px;
+}
+.item-basketball {
+  background-image: linear-gradient(to bottom, #d9d9d900 0%, #29312e91 93%),
+    url("../images/47fcf0f6fc5397e95b5e0bbfab1c5c35.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.item-tir {
+  background-image: linear-gradient(to bottom, #d9d9d900 0%, #29312e91 93%),
+    url("../images/85808b785189d9fef4bd61d85eed558a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.item-tennis {
+  background-image: linear-gradient(to bottom, #d9d9d900 0%, #29312e91 93%),
+    url("../images/250817cfe423a25350cf9f153590242b.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.third-section {
+  background-color: #f4f4f4;
+}
+
+.cards-third {
+  width: 360px;
+  /* height: 304px; */
+}
+.text-number {
+  color: #0e6147;
+}
+
+.parteners {
+  width: 80vw;
+}
+
+/* FILTER */
+.dropdown {
+  min-width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+.dropdown * {
+  box-sizing: border-box;
+}
+.select {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px #e6e8ec solid;
+  /* padding: 1em; */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+/* .select-clicked {
+    border: 2px black solid;
+    box-shadow: 0 0 0.8em gray;
+  } */
+.select :hover {
+  background-color: #fafafa;
+}
+.selected {
+  /* background-color: blue; */
+  /* width: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu {
+  list-style: none;
+  padding: 0.2em 0.5em;
+  background-color: #fafafa;
+  border: 2px #e6e8ec solid;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+  color: black;
+  position: absolute;
+  top: 3em;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  /* opacity: 0; */
+
+  transition: 0.2s;
+  z-index: 1;
+}
+.menu li {
+  padding: 0.7em 0.5em;
+  margin: 0.3em 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.menu :hover {
+  background: rgb(232, 231, 231);
+}
+.active {
+  background: white;
+}
+.menu-open {
+  display: block;
+  opacity: 1;
+}
+
+.selected-date {
+  background-color: #0e6147;
+  color: white;
+}
+.selected-time {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.calendar {
+  font-family: "Audiowide", sans-serif;
+}
