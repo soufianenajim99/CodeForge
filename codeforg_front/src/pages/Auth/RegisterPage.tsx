@@ -1,6 +1,4 @@
 import Navbar from "@/components/Navbar";
-import { RegisterForm } from "@/components/RegisterForm";
-import React from "react";
 import { Link } from "react-router";
 
 const RegisterPage = () => {
