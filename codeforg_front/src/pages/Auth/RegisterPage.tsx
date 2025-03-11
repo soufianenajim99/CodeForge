@@ -1,6 +1,4 @@
 import Navbar from "@/components/Navbar";
-import { RegisterForm } from "@/components/RegisterForm";
-import React from "react";
 import { Link } from "react-router";
 
 const RegisterPage = () => {
@@ -8,7 +6,6 @@ const RegisterPage = () => {
     <div className="min-h-screen bg-gray-100">
       <Navbar />
 
-      {/* Sign Up Form */}
       <div className="w-full flex items-center justify-center py-16">
         <div className="bg-white w-96 p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-center mb-6">
