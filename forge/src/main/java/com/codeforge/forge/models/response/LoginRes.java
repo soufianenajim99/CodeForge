@@ -10,6 +10,15 @@ public class LoginRes {
     private String email;
     private String token;
 
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    private String role;
     private long expiresIn;
 
     public long getExpiresIn() {
