@@ -65,6 +65,7 @@ public class AuthController {
         response.setEmail(user.getEmail());
         response.setRole(user.getRole().name());
         response.setToken(token);
+        response.setId(String.valueOf(user.getId()));
         response.setExpiresIn(userService.getTokenExpirationTime());
         return response;
     }
